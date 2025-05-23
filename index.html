@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Comenzar desde 0</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Hola Aleee 🦆</h1>
+    </div>
+
+    <div class="contenedor">
+        <p>Si soy un migajero, dejame ser este peligroso</p>
+        <video src="videos/video1.mp4" controls class="video"></video>
+    </div>
+
+    <div class="contenedor">
+        <p>No mentira jaja, no vengo a migajear 🕊️ ni a causar lástima Ale. He vuelto a escribirte después de un mes
+            aproximadamente, más no sé si me quedaré. Quisiera quedarme, pero entiendo que no es algo que me corresponda
+            decidir, tampoco tengo que abrumarme por algo que no puedo controlar, te estimo y si aún decides que lo
+            mejor
+            es
+            que no esté en tu camino, no soy nadie para hacer lo contrario. 🚗💨
+        </p>
+    </div>
+
+    <div class="contenedor">
+        <h3>¿Por qué? a pesar de todo lo que ha pasado, ¿por qué sigo aquí?</h3>
+        <p>En estos momentos ya no se trata de querer o mejor dicho, de haber querido intentar algo contigo.
+            Cuando te conocí, fue en un momento en donde me encontraba en un punto bajo en mi vida, en lo más bajo en su
+            momento.
+            Llegaste tú, comenzamos a hablar seguido, dejando de lado nuestros encuentros, en ese momento sentí que
+            tenía alguien,
+            alguien que mostraba interés en lo que hacía, sentía o lo que me pasaba. Sentí que tenía un hombro en donde
+            apoyarme y claro, independientemente
+            de todo eso, conversar contigo me gustaba mucho, ya sea por chat o discord. 💻
+        </p>
+    </div>
+
+    <div class="contenedor">
+        <p>Te quiero, no por el tema de ser algo, te quiero, te estimo, te aprecio, por haber estado allí cuando no me
+            sentía bien. Ahora me encuentro mejor y aunque
+            las cosas se nos haya ido de las manos, porque a pesar de lo que puedas decir, sé que en su momento no
+            querías que esto acabara así, todo esto me sirvió para poder
+            sentirme el como me siento ahora.
+            Todo depende de perspectivas no? muchas veces me has dicho que no tenemos recuerdo juntos, momentos,
+            anécdotas, como para conservar algo y si tienes razón, pero desde mi punto de vista
+            fuiste la persona que me hizo olvidar en su momento que me estaba yendo muy mal.👀
+        </p>
+    </div>
+
+    <div class="contenedor">
+        <p>Como dije quisiera quedarme, quisiera que esta tensión desaparezca por completo, quisiera poder conocerte,
+            ser tu amigo, me pareces una persona increíble Ale,
+            tu personalidad me engancha, alimenta mi curiosidad. 🤝
+        </p>
+    </div>
+
+    <div class="contenedor">
+        <p>Perdona si en su momento no dije o hice detalles como este, no te tengo delante mío para darte algo, lo cual
+            cualquiera puede hacer, pero encontré la manera de usar lo que sé
+            para poder hacerte alguito otra vez ⚡ c:
+        </p>
+    </div>
+
+    <div class="contenedor">
+        <img src="imagenes/fotofibli.png" alt="La foto" class="imagen" />
+        <p>A pesar de hablarnos 6 meses y habernos llevado como nos llevamos,
+            solo tenemos una foto hecho por una IA, que en su momento me dijiste
+            que te gustó. 📷</p>
+    </div>
+
+    <div class="contenedor">
+        <p>Recuerdas la vez que te dije el 21 de marzo si querias tus flores amarillas? y tú me dijiste "si, no, tal
+            vez?" jaja, perdona, en ese momento el desconocer el como llegar hasta a ti
+            hizo que no pueda hacer ciertas cosas y así crear los momentos que me dijiste que al final no hicimos. Mi
+            culpa por no buscar una solución desde antes. Creo que te gustan los girasoles,
+            por qué lo creo? bueno en tu descripción tienes varios emojins de girasoles y una vez subiste una foto de un
+            girasol a tu estado, solo es cuestion de prestar atención. No podré regalarte unas
+            flores amarillas fisicas, perdon por la tardanza, pero aquí están 🌻🌻🌻:
+        </p>
+
+        <a href="flores/index.html" class="enlace">Haz clic aquí </a>
+    </div>
+
+    <audio id="musica" src="musica/FrancesLimon.mp3"></audio>
+    <button id="boton-musica">🎵 Reproducir Música</button>
+
+    <script>
+        const botonMusica = document.getElementById('boton-musica');
+        const musica = document.getElementById('musica');
+
+        botonMusica.addEventListener('click', () => {
+            if (musica.paused) {
+                musica.play();
+                botonMusica.textContent = '⏸️ Pausar Música';
+            } else {
+                musica.pause();
+                botonMusica.textContent = '🎵 Reproducir Música';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
